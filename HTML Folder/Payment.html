@@ -1,0 +1,300 @@
+<html>
+<title> Payment Page </title>
+
+<head> 
+<style>
+@font-face {
+  font-family: Raleway, sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
+}
+
+Body {
+  background-image: url('../Images Folder/bookingbackground.jpg');
+}
+
+#hd1 {
+  text-align:center;
+  background-color: #81d4fa;
+  Color:white;
+  font-family: Raleway, sans-serif;
+  width: 20%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+fieldset {
+    background-color:#81d4fa;
+    Margin:20px;
+    border-style: groove;
+    border-radius: 5px;    
+    font-family: Raleway, sans-serif;
+    width:50%;
+    }
+
+#prfield, #bilfield {
+  border:0;
+  }
+
+table {
+  margin:20px;
+  width:99%;
+  font-family: Raleway, sans-serif;
+}
+
+input {
+  width:75%
+}
+
+#prfield h2 {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+h2 {
+  color:white;
+}
+
+#f1 {
+  width:100%;
+}
+
+button {
+  border-radius: 5px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: #81d4fa;
+
+}
+
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+h5 {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+</style>
+</head>
+
+<body>
+  <nav>
+    <!-- header section  -->
+      <div class="logo">
+          <h4> American Travel Tourist Company </h4>
+      </div>
+      <ul class="nav-links">
+          <li>
+              <a href="Home.html"> Home </a>
+          </li>
+          <li>
+              <a href="Denver.html"> Denver </a>
+          </li>
+          <li>
+              <a href="Houston.html"> Houston </a>
+          </li>
+          <li>
+              <a href="Los Angeles.html"> Los Angeles </a>
+          </li>
+          <li>
+              <a href="New York.html"> New York </a>
+          </li>
+          <li>
+              <a href="Book Here.html"> Book Here </a>
+          </li>
+      </ul>
+    </nav>
+  <br>
+<center><h1 id = "hd1" > Payment Page </h1></center>
+  <br>
+<center>
+
+<form id = "f1">
+  
+  <form>
+  <fieldset id ="prfield">
+  <h2> Personal Information </h2>
+  <table>
+    <tr>
+      <td>
+        <label> First Name </label>
+        <br>
+        <input type = "text" name="fname" placeholder="Enter first name">
+      </td>
+
+      <td>
+        <label> Last Name </label>
+        <br>
+        <input type = "text" name="lname" placeholder="Enter last name">
+      </td>
+    </tr>
+    
+    <tr>
+    </tr>
+
+
+    <tr>
+      <td>
+        <label> Email address </label>
+        <br>
+        <input type = "text" name="email" placeholder="Enter email address">
+      </td>
+
+      <td>
+        <label> Phone number </label>
+        <br>
+        <input type = "tel" name="phone" placeholder="Enter phone number">
+      </td>
+    </tr>
+
+  </table>
+  </fieldset>
+  </form>
+    
+  <form>
+  <fieldset id ="bilfield">
+  <h2> Billing Information </h2>
+  <table>
+    <tr>
+      <td>
+        <label> Cardholder Name </label>
+        <br>
+        <input id="cname" type="text" placeholder="Enter cardholder name">
+      </td>
+      <td>
+
+        <label> Card Number </label>
+        <br>
+        <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+      </td>
+
+      
+    </tr>
+    
+    <tr>
+    </tr>
+
+
+    <tr>
+      <td>
+        <label> Valid through </label>
+        <br>
+        <input type = "text" name="vd" placeholder="xx/xx">
+      </td>
+
+      <td>
+        <label> CVV </label>
+        <br>
+        <input type = "password" name="cvv" placeholder="Enter CVV" maxlength="3">
+      </td>
+    </tr>
+ 
+    <tr>
+      <td>
+        <label> Address </label>
+        <br>
+        <input type = "text" name="add" placeholder="Enter address">
+      </td>
+
+      <td>
+        <label> Address Line 2 (Optional) </label>
+        <br>
+        <input type = "text" name="add2" placeholder="Unit, House No.">
+      </td>
+      
+    </tr>
+
+    <tr>
+      <td>
+        <label> City </label>
+        <br>
+        <input type = "text" name="city" placeholder="Enter city">
+      </td>
+
+      <td>
+        <label> State </label>
+        <br>
+        <input type = "text" name="state" placeholder="Enter state">
+      </td>
+
+
+    </tr>
+
+    <tr>
+      <td>
+        <label> Country </label>
+        <br>
+        <input type = "text" name="country" placeholder="Enter country">
+      </td>
+
+      <td>
+        <label> Zip Code </label>
+        <br>
+        <input type = "tel" name="zip" placeholder="Enter zipcode" maxlength="5">
+      </td>
+      
+    </tr>
+
+    <tr>
+    </tr>
+
+    <tr>
+    </tr>
+    
+    <tr>
+    </tr>
+
+    <tr>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <br>
+      <button onclick="display()" id="button"> Confirm payment </button>
+      
+      
+      <script src="../JavaScript Folder/forms.js">
+        
+      </script>
+      </td>
+
+    </tr>
+  </table>
+  </fieldset>
+  </form>
+
+  </form>
+  </fieldset> 
+  </center>
+  <h5>  ©  Aryan Dham </h5>
+
+</body>
+</html>

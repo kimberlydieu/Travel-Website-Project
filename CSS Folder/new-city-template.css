@@ -1,0 +1,822 @@
+/* Denver Page */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation Header */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: #81d4fa;
+
+}
+
+/* American Travel Company */
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+/* Home, Cities, Book Now */
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+/* Home, Cities, Book Now */
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+/* Left Side */
+.rowdenver {
+    display: flex;
+    height: 88%;
+    align-items: center
+
+}
+
+/* Right Side */
+.coldenver {
+    flex-basis: 50%;
+    max-width: 1300px;
+}
+
+/* Right Side Styling */
+.coldenver p {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Denver, CO Styling */
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Plan Your Visit Button Styling */
+button {
+    width: 15%;
+    color: whitesmoke;
+    font-size: 15px;
+    background: #81d4fa;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+
+/* Card Styling */
+.cardsdenver {
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.cardsdenver * {
+    box-sizing: border-box;
+}
+
+/* Card Image Styling */
+.card__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-top: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+/* Card Content Styling */
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Card Information Styling */
+.card__info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__link {
+    color: #64968c;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Homepage */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation Header */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: #81d4fa;
+
+}
+
+/* American Travel Company */
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+/* Home, Cities, Book Now */
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+/* Home, Cities, Book Now */
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+/* Left Side */
+.rowhome {
+    display: flex;
+    height: 88%;
+    align-items: center
+
+}
+
+/* Right Side */
+.colhome {
+    flex-basis: 50%;
+    max-width: 1300px;
+    color: white;
+}
+
+/* Right Side Styling */
+.colhome p {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* About Us Styling */
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Card Styling */
+.cardshome {
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.cardshome * {
+    box-sizing: border-box;
+}
+
+/* Card Image Styling */
+.card__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-top: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+/* Card Content Styling */
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Card Information Styling */
+.card__info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__link {
+    color: #64968c;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* New York CSS */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation Header */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: #81d4fa;
+
+}
+
+/* American Travel Company */
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+/* Home, Cities, Book Now */
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+/* Home, Cities, Book Now */
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+/* Left Side */
+.rownewyork {
+    display: flex;
+    height: 88%;
+    align-items: center
+
+}
+
+/* Right Side */
+.colnewyork {
+    flex-basis: 50%;
+    max-width: 1300px;
+    color: white;
+}
+
+/* Right Side Styling */
+.colnewyork p {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* New York */
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Plan Your Visit Button Styling */
+button {
+    width: 15%;
+    color: whitesmoke;
+    font-size: 15px;
+    background: #81d4fa;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 30px;
+}
+
+/* Card Styling */
+.cardsnewyork {
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.cardsnewyork * {
+    box-sizing: border-box;
+}
+
+/* Card Image Styling */
+.card__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-top: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+/* Card Content Styling */
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Card Information Styling */
+.card__info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__link {
+    color: #64968c;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*Houston Page*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation Header */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: #81d4fa;
+
+}
+
+/* American Travel Company */
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+/* Home, Cities, Book Now */
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+/* Home, Cities, Book Now */
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+/* Left Side */
+.rowhouston {
+    display: flex;
+    height: 88%;
+    align-items: center
+
+}
+
+/* Right Side */
+.colhouston {
+    flex-basis: 50%;
+    max-width: 1300px;
+}
+
+/* Right Side Styling */
+.colhouston p {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Houston, Texas Styling */
+#hh1 {
+     color: white;
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+}
+#pp1 {
+      color: white;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+}
+
+/* Card Styling */
+.cardshouston {
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.cardshouston * {
+    box-sizing: border-box;
+}
+
+/* Card Image Styling */
+.card__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-top: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+/* Card Content Styling */
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Card Information Styling */
+.card__info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__link {
+    color: #64968c;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Los Angeles CSS */
+/* Los Angeles Page */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation Header */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: #81d4fa;
+
+}
+
+/* American Travel Company */
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+/* Home, Cities, Book Now */
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+/* Home, Cities, Book Now */
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+/* Left Side */
+.rowlosangeles {
+    display: flex;
+    height: 88%;
+    align-items: center
+
+}
+
+/* Right Side */
+.collosangeles {
+    flex-basis: 50%;
+    max-width: 1300px;
+}
+
+/* Right Side Styling */
+.collosangeles p {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* losangeles, CO Styling */
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Plan Your Visit Button Styling */
+button {
+    width: 15%;
+    color: whitesmoke;
+    font-size: 15px;
+    background: #81d4fa;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+
+/* Card Styling */
+.cardslosangeles {
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.cardslosangeles * {
+    box-sizing: border-box;
+}
+
+/* Card Image Styling */
+.card__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-top: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+/* Card Content Styling */
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Card Information Styling */
+.card__info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #81d4fa;
+    border-right: 2px solid #81d4fa;
+    border-left: 2px solid #81d4fa;
+}
+
+.card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__link {
+    color: #64968c;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}

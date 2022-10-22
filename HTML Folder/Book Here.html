@@ -1,0 +1,309 @@
+<html>
+<title> Booking Page </title>
+<head> 
+<style>
+
+@font-face {
+  font-family: Raleway, sans-serif;;
+  src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
+}
+
+Body {background-image: url("../Images folder/bookingbackground.jpg"); background-repeat: no-repeat;}
+
+#hd1 {text-align:center;
+      Color:black;
+      font-family: Raleway, sans-serif;
+    }
+
+#fs01 {background-color:#81d4fa;
+      border-radius: 5px;
+      font-family: Raleway, sans-serif;
+      width: 50%;
+    }
+
+#fs02 {
+  border-radius: 5px;
+}
+#fs03 {
+  border-radius: 5px;
+}
+#fs04 {
+  border-radius: 5px;
+}
+#fs05 {
+  border-radius: 5px;
+}
+  
+#fs06 {
+  border-radius: 5px;
+}
+  
+#t01 {
+      border-spacing:10px;
+      border-radius: 5px;
+      Padding:5px;
+      width:50%;
+      background-color: #81d4fa;
+      height: 65%;  
+    }
+
+#bt1, #bt2 , #bt3 {
+  color: black;
+  Background-color:white;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: gray;
+  font-family: Raleway, sans-serif;
+
+}
+
+#passenger {width:75%;}
+
+#fs02, #fs03, #fs04, #fs05, #fs06 {width:70%;
+                            Background-color:#e6e6e6;}
+ 
+select {width:75%;}
+
+tr {
+  font-family: Raleway, sans-serif;
+}
+
+td {
+  font-family: Raleway, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: #81d4fa;
+
+}
+
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+#f1 {
+  width: 10%;
+}
+
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  text-align:center;
+  background-color: #81d4fa;
+  Color:white;
+  font-family: Raleway, sans-serif;
+  width: 20%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+h5 {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+</style>
+</head>
+<body>
+  <nav>
+    <!-- header section  -->
+      <div class="logo">
+          <h4> American Travel Tourist Company </h4>
+      </div>
+      <ul class="nav-links">
+          <li>
+              <a href="Home.html"> Home </a>
+          </li>
+          <li>
+              <a href="Denver.html"> Denver </a>
+          </li>
+          <li>
+              <a href="Houston.html"> Houston </a>
+          </li>
+          <li>
+              <a href="Los Angeles.html"> Los Angeles </a>
+          </li>
+          <li>
+              <a href="New York.html"> New York </a>
+          </li>
+          <li>
+              <a href="Book Here.html"> Book Here </a>
+          </li>
+      </ul>
+    </nav>
+    <br>
+    <center><h1> Booking </h1></center>
+<center><form id = "f1"></center>
+  <center>
+  <table id="t01">
+  
+    <tr>
+      <td id="t1"> 
+        <label> Select Destination </label>
+        <br>
+        <select id="destination" name="destination" required="required">
+        <option selected>  </option>
+        <option> Denver </option>
+        <option> Houston </option>
+        <option> Los Angeles </option>
+        <option> New York </option>
+        </select>
+        </td>
+
+      <td id="t2">
+        <label> No. of passengers </label>
+        <br>
+        <input type="number" id="passenger" min="0" max="10" required="required" />
+      </td>
+
+      
+    </tr>
+
+
+    <tr>
+      <td rowspan="4">
+      <fieldset id ="fs02">
+        <label> What type of accommodation would you like? </label>
+        <br>
+        <input type="radio" name="accommodation" id="a1"> 
+        <label class="lb"> Hotel </label>
+        <br>
+        <input type="radio" name="accommodation" id="a2">
+        <label class="lb"> Lodge </label>
+        <br>
+        <input type="radio" name="accommodation" id="a3"> 
+        <label class="lb"> AirBnb </label>
+      </fieldset>
+      </td>
+
+ 
+      <td rowspan="3">
+      <fieldset id="fs03">
+        <label> Means of Local Transport </label>
+        <br>
+        <input type="radio" name="transport" id="t1"> 
+        <label class="lb"> Car Rental </label>
+        <br>
+        <input type="radio" name="transport" id="t2">
+        <label class="lb"> Taxi </label>
+        <br>
+      </fieldset>
+      </td>
+
+    </tr>
+  
+    <tr>
+    </tr>
+
+   <tr>
+    </tr>
+
+
+   <tr>
+    </tr>
+
+    <tr>
+      <td rowspan="2">
+        <fieldset id="fs04">
+        <label class="lb"> Services you would like to enjoy </label>
+        <br>
+        <input type="checkbox" name="services" id="s1"> 
+        <label class="lb"> Architecture Tour </label>
+        <br>
+        <input type="checkbox" name="services" id="s2">
+        <label class="lb"> Bus Tour </label>
+        <br>
+        <input type="checkbox" name="services" id="s3">
+        <label class="lb"> Camp Ground </label>
+        <br>
+        <input type="checkbox" name="services" id="s4"> 
+        <label class="lb"> Downtown Tour </label>
+        <br>
+       </fieldset>
+      </td>  
+
+      <td rowspan="2">
+      <fieldset id="fs04">
+        <label class="lb"> Checkin Date: </label>
+        <br>
+        <input type="date" name="cdate" >
+        <br>
+        <br>
+        <label class="lb"> Checkin Time: </label>
+        <br>
+        <input type="time" name="ctime" >
+      </fieldset>
+      </td>
+    </tr>
+
+    <tr>
+    </tr>
+
+
+    <tr>
+    <!-- Using rowspan and checkbox on left side of the table-->
+    <td rowspan="2">
+    <br>
+     <fieldset id="fs02">
+      <label> I agree to the company's terms and conditions. </label>
+      <input type="checkbox" name="agreement" required="required">
+     </fieldset>
+    </td>
+
+    <!-- Submit and Reset form buttons -->
+    <td>
+    <br>
+      <input type="button" id="bt1" onclick="showData()" value="Continue"> 
+      <input type="reset" id ="bt2" > 
+    </td>
+
+  </tr>
+
+  </table>
+  </center>
+  </form>
+
+  <center><h2> Review Information </h2></center>
+
+  <center><p id="p1"> </p>
+  <p id="p2"> </p></center>
+  
+
+  <script src="../JavaScript Folder/forms.js">
+
+  </script>
+  <center><a href="Payment.html"><button>Submit</button></a></center>
+  </fieldset>
+  <br>
+<h5>  ©  Aryan Dham </h5>
+</body>
+</html>
